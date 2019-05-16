@@ -1,0 +1,6 @@
+NUM=$1
+mkdir -p tmp
+touch tmp/first.txt
+pushd tmp
+echo "your number is ${NUM}" >> first.txt
+cat first.txt
